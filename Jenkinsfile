@@ -21,7 +21,7 @@ node {
     }
 
     stage('Run tests') {
-      sh 'bash run.sh "npm run coverage"'
+      sh 'bash run.sh npm run coverage'
     }
 
     stage('Report coverage') {
